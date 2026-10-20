@@ -1,0 +1,40 @@
+{
+    "meta": {
+        "label": "Dummy macro",
+        "description": "Says hello and shows some basic context. Does nothing else.",
+        "icon": "fas fa-hand-sparkles"
+    },
+
+    // Run as the DSS user rather than impersonating the end user
+    "impersonate": false,
+
+    // No special project permissions required to run it
+    "permissions": [],
+
+    // The run() method returns an HTML string displayed to the user
+    "resultType": "HTML",
+    "resultLabel": "Dummy macro result",
+
+    // Show the macro in the project's Macros page
+    "macroRoles": [
+        { "type": "PROJECT_MACROS" }
+    ],
+
+    "params": [
+        {
+            "name": "message",
+            "label": "Message",
+            "type": "STRING",
+            "defaultValue": "Hello from the dummy macro!",
+            "mandatory": true
+        },
+        {
+            "name": "repeat",
+            "label": "Repeat",
+            "type": "INT",
+            "defaultValue": 1,
+            "minI": 1,
+            "maxI": 10
+        }
+    ]
+}

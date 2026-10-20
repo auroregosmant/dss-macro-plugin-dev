@@ -1,0 +1,16 @@
+{
+    // Plugin identifiers are globally unique and only contain A-Za-z0-9_-
+    "id": "dummy-macro-plugin",
+
+    "version": "0.0.1",
+
+    "meta": {
+        "label": "Dummy macro plugin",
+        "description": "A test plugin that adds a dummy macro.",
+        "author": "",
+        "icon": "fas fa-flask",
+        "tags": ["Test"],
+        "url": "",
+        "licenseInfo": "Apache Software License"
+    }
+}
