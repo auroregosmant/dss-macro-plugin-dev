@@ -1,6 +1,6 @@
 {
     // Plugin identifiers are globally unique and only contain A-Za-z0-9_-
-    "id": "dummy-macro-plugin",
+    "id": "dummy-macro-plugin-DEV",
 
     "version": "0.0.1",
 
